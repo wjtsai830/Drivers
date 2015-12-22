@@ -1,0 +1,10 @@
+#
+# Touch Panel driver Gt9xx
+#
+menu "Gt9xx touch driver"
+config TOUCHSCREEN_GT9XX
+        tristate "Gt9xx touch driver"
+        help
+        Choose Y here if you have this Gt9xx touch driver.
+endmenu
+
