@@ -1,0 +1,9 @@
+#
+# FT5X06 TOUCHSCREEN driver 
+#
+menu "FT5X06 Touchscreen driver"
+config TOUCHSCREEN_FT5X06
+	tristate "FT5X06 Touchscreen"
+	help
+	Choose Y here if you have this Touchscreen chip.
+endmenu
